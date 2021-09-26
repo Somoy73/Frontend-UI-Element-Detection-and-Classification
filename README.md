@@ -45,7 +45,10 @@
                                               changes from either exported-models or pre-trained-models.)
 
 ```
-See [Configure the Training Pipeline](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#configure-the-training-pipeline)
+See [Configure the Training Pipeline](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#configure-the-training-pipeline) for figuring out what changes need to be done.
+
+
+## Commands
 
 In the anaconda prompt under the specific conda environment created for this project using [requirements.txt](https://github.com/Somoy73/Frontend-UI-Element-Detection-and-Classification/blob/master/requirements.txt):
 
