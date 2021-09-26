@@ -50,9 +50,11 @@
 
 ---
 
-Some folders may be missing due to upload limitations. So, create them if they don't exist using the same file names given above.
+Some folders may be missing due to upload limitations. So, create them if they don't exist using the same folder names given above. For instance, 
+under-training-models/faster_rcnn folder is missing. So create them, then copy over the pipeline.config file from exported-models/10200 and make necessary changes. **This needs to be done if you are planning to train.** 
 
-See [Configure the Training Pipeline](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#configure-the-training-pipeline) for figuring out what changes need to be done.
+
+See [Configure the Training Pipeline](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#configure-the-training-pipeline) for figuring out what changes need to be done in pipeline.config file.
 
 
 ## Commands
