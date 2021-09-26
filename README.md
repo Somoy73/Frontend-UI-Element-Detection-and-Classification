@@ -39,7 +39,8 @@ V
 						(See https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#configure-the-training-pipeline)
 
 
-In the anaconda prompt under the specific conda environment created for this project using requirements.txt: <a src='https://github.com/Somoy73/Frontend-UI-Element-Detection-and-Classification/blob/master/requirements.txt'>requirements</a>
+In the anaconda prompt under the specific conda environment created for this project using requirements.txt: 
+	<a src='https://github.com/Somoy73/Frontend-UI-Element-Detection-and-Classification/blob/master/requirements.txt'>requirements</a>
 
 For creating the train data TF record:
 python scripts/generate_tfrecord.py -x ./workspace/training/images/train -l ./workspace/training/annotations/label_map.pbtxt -o ./workspace/training/annotations/train.record
