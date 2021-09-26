@@ -42,11 +42,10 @@
  		          |-----under-training-models --> Each folder containing customized pipeline config 
                                               for the pretrained models and its checkpoints
                                               (Copy over the pipeline.config file with necessary 
-                                              changes from either exported-models or pre-trained-models.
-                                              See [Configure the Training Pipeline](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#configure-the-training-pipeline))
+                                              changes from either exported-models or pre-trained-models.)
 
 ```
-
+See [Configure the Training Pipeline](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#configure-the-training-pipeline)
 
 In the anaconda prompt under the specific conda environment created for this project using [requirements.txt](https://github.com/Somoy73/Frontend-UI-Element-Detection-and-Classification/blob/master/requirements.txt):
 
