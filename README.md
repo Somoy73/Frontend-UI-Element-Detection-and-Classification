@@ -7,7 +7,6 @@
 Tensorflow Object Detection 
 |
 V
-<br/>
 |-----Detection TF2.ipynb --> For detection
 
 |-----Trainer TF2.ipynb --> For training
@@ -16,7 +15,7 @@ V
 
 |-----models ->> github TFOD master
 
-|-----scripts<br/>
+|-----scripts
 
 	|-----exporter_main_v2.py
 
@@ -35,8 +34,9 @@ V
 
 		|-----pre-trained-models  --> Each folder containing downloaded pre-trained models ->> Download from TFOD Model Zoo
 
-		|-----under-training-models --> Each folder containing customized pipeline config for the pretrained models and its checkpoints (Copy over the pipeline.config 	  file with necessary changes from either exported-models or pre-trained-models)
-						(See [Configure the Training Pipeline](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#configure-the-training-pipeline))
+		|-----under-training-models --> Each folder containing customized pipeline config for the pretrained models and its checkpoints (Copy over the pipeline.config 	  file with necessary changes from either exported-models or pre-trained-models. See [Configure the Training Pipeline](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#configure-the-training-pipeline))
+</p>
+
 
 
 In the anaconda prompt under the specific conda environment created for this project using requirements.txt: <a src='https://github.com/Somoy73/Frontend-UI-Element-Detection-and-Classification/blob/master/requirements.txt'>requirements</a>
