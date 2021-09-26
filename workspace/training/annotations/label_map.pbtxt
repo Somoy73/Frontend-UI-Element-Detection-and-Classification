@@ -1,0 +1,54 @@
+item {
+  id: 1
+  name: 'input'
+}
+
+item {
+  id: 2
+  name: 'hyperlink'
+}
+
+item {
+  id: 3
+  name: 'navbar'
+}
+
+item {
+  id: 4
+  name: 'image'
+}
+
+item {
+  id: 5
+  name: 'linker'
+}
+
+item {
+  id: 6
+  name: 'button'
+}
+
+item {
+  id: 7
+  name: 'paragraph'
+}
+
+item {
+  id: 8
+  name: 'select'
+}
+
+item {
+  id: 9
+  name: 'radio'
+}
+
+item {
+  id: 10
+  name: 'checkbox'
+}
+
+item {
+  id: 11
+  name: 'table'
+}

@@ -1,0 +1,11 @@
+input
+hyperlink
+navbar
+image
+linker
+button
+paragraph
+select
+radio
+checkbox
+table
