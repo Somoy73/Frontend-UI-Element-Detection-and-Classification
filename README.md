@@ -88,7 +88,8 @@ tensorboard --logdir=./workspace/training/under-training-models/faster_rcnn
 ### An example of an inferenced image
 ![Inferenced Image](https://github.com/Somoy73/Frontend-UI-Element-Detection-and-Classification/blob/master/workspace/training/images/detected_images/i292.jpg)
 
-Reference:
+## Reference:
+
 For more detailed procedure explanation: [Training Custom Object Detector using Tensorflow 2 Object Detection API](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html)
 
 Faster RCNN pre-trained Model: [Click here to download from Tensorflow 2 Model Zoo](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_inception_resnet_v2_640x640_coco17_tpu-8.tar.gz)
