@@ -2,27 +2,12 @@
 Detection and Classification of UI Elements of Web pages and Apps from Wireframe Sketches
 
 
-Dataset:
-Custom hand-drawn sketches of UI Wireframes 
-(300 Images, around 2100 UI Components)
-Image Pre-processing:
-Binarization using Adaptive Thresholding and Otsu’s method with Gaussian Blur
-Deep Learning Model:
-Faster R-CNN with Inception and Resnet v2
-Accuracy Metric:
-Mean Average Precision (mAP)
-
-
-
-
-
-
 The file and folder structure is given below:
-
+<p>
 Tensorflow Object Detection 
 |
 V
-
+<br/>
 |-----Detection TF2.ipynb --> For detection
 
 |-----Trainer TF2.ipynb --> For training
@@ -31,7 +16,7 @@ V
 
 |-----models ->> github TFOD master
 
-|-----scripts
+|-----scripts<br/>
 
 	|-----exporter_main_v2.py
 
@@ -50,11 +35,11 @@ V
 
 		|-----pre-trained-models  --> Each folder containing downloaded pre-trained models ->> Download from TFOD Model Zoo
 
-		|-----under-training-models --> Each folder containing customized pipeline config for the pretrained models and its checkpoints (Copy over the pipeline.config file with necessary changes from either exported-models or pre-trained-models)
+		|-----under-training-models --> Each folder containing customized pipeline config for the pretrained models and its checkpoints (Copy over the pipeline.config 	  file with necessary changes from either exported-models or pre-trained-models)
 						(See https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#configure-the-training-pipeline)
 
 
-In the anaconda prompt under the specific conda environment created for this project using requirements.txt:
+In the anaconda prompt under the specific conda environment created for this project using requirements.txt: <a src='https://github.com/Somoy73/Frontend-UI-Element-Detection-and-Classification/blob/master/requirements.txt'>requirements</a>
 
 For creating the train data TF record:
 python scripts/generate_tfrecord.py -x ./workspace/training/images/train -l ./workspace/training/annotations/label_map.pbtxt -o ./workspace/training/annotations/train.record
