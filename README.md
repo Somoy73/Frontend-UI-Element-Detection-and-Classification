@@ -4,37 +4,37 @@
 
 ### The file and folder structure is given below:
 <p>
-Tensorflow Object Detection 
-|
-V
-|-----Detection TF2.ipynb --> For detection
-
-|-----Trainer TF2.ipynb --> For training
-
-|-----addons --> LabelImg ->> Github Link to LabelImg 
-
-|-----models ->> github TFOD master
-
-|-----scripts
-
-	|-----exporter_main_v2.py
-
-	|-----generate_tfrecord.py
-
-	|-----model_main_tf2.py
-|-----workspace
-
-	|-----training
-
-		|-----annotations --> Contains labelmap and TF record files
-
-		|-----exported-models --> Exported model after training
-
-		|-----images --> Folders named train, test, eval and detected-images for their specific images. Each folder will have image and its corresponding PASCAL VOC formated .xml files.
-
-		|-----pre-trained-models  --> Each folder containing downloaded pre-trained models ->> Download from TFOD Model Zoo
-
-		|-----under-training-models --> Each folder containing customized pipeline config for the pretrained models and its checkpoints (Copy over the pipeline.config 	  file with necessary changes from either exported-models or pre-trained-models. See [Configure the Training Pipeline](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#configure-the-training-pipeline))
+> Tensorflow Object Detection 
+> |
+> V
+> |-----Detection TF2.ipynb --> For detection
+> 
+> |-----Trainer TF2.ipynb --> For training
+> 
+> |-----addons --> LabelImg ->> Github Link to LabelImg 
+> 
+> |-----models ->> github TFOD master
+> 
+> |-----scripts
+> 
+> 	|-----exporter_main_v2.py
+> 
+> 	|-----generate_tfrecord.py
+> 
+> 	|-----model_main_tf2.py
+> |-----workspace
+> 
+> 	|-----training
+> 
+> 		|-----annotations --> Contains labelmap and TF record files
+> 
+> 		|-----exported-models --> Exported model after training
+> 
+> 		|-----images --> Folders named train, test, eval and detected-images for their specific images. Each folder will have image and its corresponding PASCAL VOC formated .xml files.
+> 
+> 		|-----pre-trained-models  --> Each folder containing downloaded pre-trained models ->> Download from TFOD Model Zoo
+> 
+> 		|-----under-training-models --> Each folder containing customized pipeline config for the pretrained models and its checkpoints (Copy over the pipeline.config 	  file with necessary changes from either exported-models or pre-trained-models. See [Configure the Training Pipeline](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#configure-the-training-pipeline))
 </p>
 
 
