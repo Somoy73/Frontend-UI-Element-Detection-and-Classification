@@ -45,6 +45,13 @@
                                               changes from either exported-models or pre-trained-models.)
 
 ```
+
+**Note**:
+
+---
+
+Some folders may be missing due to upload limitations. So, create them if they don't exist using the same file names given above.
+
 See [Configure the Training Pipeline](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#configure-the-training-pipeline) for figuring out what changes need to be done.
 
 
