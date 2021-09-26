@@ -92,4 +92,10 @@ tensorboard --logdir=./workspace/training/under-training-models/faster_rcnn
 
 For more detailed procedure explanation: [Training Custom Object Detector using Tensorflow 2 Object Detection API](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html)
 
-Faster RCNN pre-trained Model: [Click here to download from Tensorflow 2 Model Zoo](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_inception_resnet_v2_640x640_coco17_tpu-8.tar.gz)
+Tensorflow 2 Object Detection: [Tensorflow Model Garden](https://github.com/tensorflow/models)
+
+Tensorflow 2 Model Zoo : [Go there](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md)
+
+Faster RCNN pre-trained Model: [Download from Tensorflow 2 Model Zoo](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_inception_resnet_v2_640x640_coco17_tpu-8.tar.gz)
+
+[LabelImg](https://github.com/tzutalin/labelImg): [Download LabelImg](https://github.com/tzutalin/labelImg/files/2638199/windows_v1.8.1.zip)
