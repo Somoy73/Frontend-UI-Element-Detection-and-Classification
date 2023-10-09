@@ -99,6 +99,9 @@ tensorboard --logdir=./workspace/training/under-training-models/faster_rcnn
 
 ## Reference:
 
+Our research journal, Feel free to cite it in your research/project:
+[Democratizing AI by converting sketches to code](https://arxiv.org/abs/2211.14607)
+
 For more detailed procedure explanation: [Training Custom Object Detector using Tensorflow 2 Object Detection API](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html)
 
 Tensorflow 2 Object Detection: [Tensorflow Model Garden](https://github.com/tensorflow/models)
